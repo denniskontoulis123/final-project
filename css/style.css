@@ -1,25 +1,105 @@
-* {
-    box-sizing: border-box;
-    font-family:'Inter', sans-serif;
-  }
-
-
-ul { 
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    padding: 0.5rem;
+*{
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
-input[type="text"] {
-    display: block;
-    width: 100%;
-    margin-bottom: 0.5rem;
-  }
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #14171A;
+  margin: 0;
+  padding: 0;
+  background-color: #F0E5CB;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+}
+
+.chirp-logo {
+  color: blue;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.header img {
+  height: 50px;
+}
+
+.header nav {
+  display: flex;
+  gap: 10px;
+}
+
+.twittersignin {
+  display: flex;
+  align-items: center;
+  background-color: #1DA1F2;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.twittersignin img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  width: 80%;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+.content .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.blue-box {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  background-color: #1DA1F2;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.features .feature-card {
+  flex-basis: 45%;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
 
 a {
   text-decoration-line: none;
-  color: darkgray
+  color: gray;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@media (max-width: 768px) {
+  .content {
+      flex-direction: column;
+  }
+}
