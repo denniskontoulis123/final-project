@@ -70,7 +70,7 @@ strong {
   margin-right: -8px;
   display: flex;
   flex-direction: column;
-  background-color: #a5d6f5;
+  background-color: #bee6ff;
 }
 
 .twittersignin {
@@ -258,7 +258,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
-  background-color: #FDFD96; 
+  background-color: #e9e9cf; 
   border: 2px solid #FFA500; 
   border-radius: 10px; 
   width: 100%; 
@@ -269,6 +269,11 @@ a {
 .monthly-container h3,
 .monthly-container h1 {
   width: 100%;
+}
+
+.monthly-container h3 {
+  color: gray;
+  font-weight: lighter;
 }
 
 .monthly-container h1 {
@@ -325,4 +330,29 @@ hr {
   margin-top: 0;
   border: 0.5px solid gray;
   width: 100%;
+}
+
+.footer a{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.footer {
+  margin-bottom: -5px;
+  width: 100%;
+  background-color: #bee6ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .chirp-logo{
+  padding-left: 10px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
