@@ -243,7 +243,7 @@ a {
 }
 
 .date {
-  margin-left: 275px;
+  padding-left: 29.50rem;
 }
 
 .pricing {
@@ -355,4 +355,19 @@ hr {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.faq-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+
+.faq-item h2 {
+  color: #1DA1F2;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  margin-bottom: 30px;
 }
